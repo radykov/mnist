@@ -14,7 +14,7 @@ y_ = tf.placeholder(tf.float32, [None, 10])
 
 cross_entropy = tf.reduce_mean(-tf.reduce_sum(y_ * tf.log(y), reduction_indices=[1]))
 
-#The learning rate has to be much smaller for negative MNIST images
+# Simple gradient decent optimizer doesn't work as well for negative images
 train_step = tf.train.AdamOptimizer(1e-4).minimize(cross_entropy)
 
 init = tf.global_variables_initializer()
