@@ -12,3 +12,6 @@ A simple Linear classifier doesn't converge for both negative and normal images.
 This is not a linearly separateable scenario
 This makes sense, because there is only 1 weight per input node matching to an output node.
 That 1 weight can't have two opposing influences over the output node.
+
+
+Tensorflow Version 1.0.1
