@@ -1,5 +1,3 @@
-# mnist
-
 # Normal MNIST Linear
 Simple  works with ~90% accuracy using normal gradient descent optimizer and a learning rate of 0.5.
 
