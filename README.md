@@ -16,6 +16,17 @@ A simple MLP with 1 input, 1 hidden and 1 output.
 64% of the time correct for normal
 67% correct for negative images
 
+# CNN MNIST
+Gets to 95% accuracy within 1,000 iterations and batch of 100
+
+# CNN MNIST Negative
+Gets to 94% accuracy within 1,000 iterations and batch of 100
+
+# CNN MNIST Normal + Negative
+Gets 92% accuracy within 1,000 iterations and a batch of 100 for both normal and negative images
+This is much closer performance to the seperated data sets than the other approaches had.
+
+
 
 
 # Tensorflow & Python versions
